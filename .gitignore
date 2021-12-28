@@ -1,0 +1,26 @@
+# specified files
+threshold_test
+build
+dist
+test/*
+*.spec
+
+
+# tmp dir and modules
+tmp*
+src_js/tmp
+src_js/node_modules
+src_js/dist-out
+
+# compressed files
+*.rar
+*.zip
+
+# IDE dirs
+.vscode
+.idea
+__pycache__
+
+# other files
+.DS_Store
+.history
